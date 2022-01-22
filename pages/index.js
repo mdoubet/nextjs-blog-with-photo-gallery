@@ -37,7 +37,7 @@ export default function Home({ allPostsData, allPhotos }) {
           <a href="https://nextjs.org/learn">this Next.js tutorial</a>.)
         </p>
         <p>
-          Here's a <Link href={"./gallery"}><a>dynamic photo gallery </a></Link>
+          Here's a <Link href="./gallery"><a>dynamic photo gallery </a></Link>
            I'm working on. It looks through all the images in a directory 
            and displays them all in a grid.
         </p>
