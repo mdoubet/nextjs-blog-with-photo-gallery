@@ -32,7 +32,7 @@ export default function Layout ({ children, home }) {
                         alt={name}
                         
                     />
-                    <h1 className={utilStyles.heading2Xl}>{name} <Image src="/images/fire_1f525.png" height={84} width={44}/></h1>
+                    <h1 className={utilStyles.heading2Xl}>{name} <Image src="/images/fire_1f525.png" alt='animated fire emoji' height={84} width={44}/></h1>
                 </>
             ) : (
                 <>
@@ -52,7 +52,7 @@ export default function Layout ({ children, home }) {
                         <Link href="/">
                             <a className={utilStyles.colorInherit}>{name} </a>
                         </Link>
-                        <Image src="/images/fire_1f525.png" height={56} width={36}/>
+                        <Image src="/images/fire_1f525.png" height={56} width={36} alt="animated fire emoji"/>
                     </h2>
                 </>
             )}
