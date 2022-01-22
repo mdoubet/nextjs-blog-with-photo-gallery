@@ -28,13 +28,14 @@ export default function Gallery (allPhotos) {
                     
                     return(
                
-                  <div className={utilStyles.galleryPhoto}> 
+                  <div key={photo} className={utilStyles.galleryPhoto}> 
                        <Image
                         src={image}
                         layout="responsive"
                         height={250}
                         width={700}
                         className={utilStyles.galleryPhoto}
+                        alt={photo}
                         
                         
                     />
